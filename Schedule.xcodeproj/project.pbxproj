@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46F6C5284D3FD02C102D2FDC /* Pods_Schedule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA3FDA7C2A0613C70510838 /* Pods_Schedule.framework */; };
+		D527D7CC208772E000FA4899 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527D7CB208772E000FA4899 /* SettingsViewController.swift */; };
+		D527D7CE208777AD00FA4899 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527D7CD208777AD00FA4899 /* AddCategoryViewController.swift */; };
+		D527D7CF2087819900FA4899 /* ChromaColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D527D7D02087819900FA4899 /* ChromaColorPicker.framework */; };
+		D527D7D42087B50300FA4899 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527D7D32087B50300FA4899 /* EditTaskViewController.swift */; };
+		D527D7D62087BCC400FA4899 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527D7D52087BCC400FA4899 /* TaskTableViewController.swift */; };
 		D5C3BCCA2084FA8D001C5354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCC92084FA8D001C5354 /* AppDelegate.swift */; };
-		D5C3BCCC2084FA8D001C5354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCCB2084FA8D001C5354 /* ViewController.swift */; };
 		D5C3BCCF2084FA8D001C5354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C3BCCD2084FA8D001C5354 /* Main.storyboard */; };
 		D5C3BCD22084FA8D001C5354 /* Schedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCD02084FA8D001C5354 /* Schedule.xcdatamodeld */; };
 		D5C3BCD42084FA8D001C5354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C3BCD32084FA8D001C5354 /* Assets.xcassets */; };
 		D5C3BCD72084FA8D001C5354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C3BCD52084FA8D001C5354 /* LaunchScreen.storyboard */; };
 		D5C3BCE22084FA8D001C5354 /* ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCE12084FA8D001C5354 /* ScheduleTests.swift */; };
 		D5C3BCED2084FA8D001C5354 /* ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCEC2084FA8D001C5354 /* ScheduleUITests.swift */; };
+		D5C3BCFE20850306001C5354 /* Tasks+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCFA20850306001C5354 /* Tasks+CoreDataClass.swift */; };
+		D5C3BCFF20850306001C5354 /* Tasks+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCFB20850306001C5354 /* Tasks+CoreDataProperties.swift */; };
+		D5C3BD0020850306001C5354 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCFC20850306001C5354 /* Categories+CoreDataClass.swift */; };
+		D5C3BD0120850306001C5354 /* Categories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BCFD20850306001C5354 /* Categories+CoreDataProperties.swift */; };
+		D5C3BD0320850805001C5354 /* DataHelperCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BD0220850805001C5354 /* DataHelperCategories.swift */; };
+		D5C3BD0B20855C82001C5354 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3BD0A20855C82001C5354 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BA3FDA7C2A0613C70510838 /* Pods_Schedule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schedule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487D5BB819624BEAAE600BCD /* Pods-Schedule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schedule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Schedule/Pods-Schedule.debug.xcconfig"; sourceTree = "<group>"; };
+		8EE7B36236D2A41697318AA8 /* Pods-Schedule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schedule.release.xcconfig"; path = "Pods/Target Support Files/Pods-Schedule/Pods-Schedule.release.xcconfig"; sourceTree = "<group>"; };
+		D527D7CB208772E000FA4899 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D527D7CD208777AD00FA4899 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		D527D7D02087819900FA4899 /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D527D7D32087B50300FA4899 /* EditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+		D527D7D52087BCC400FA4899 /* TaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
 		D5C3BCC62084FA8D001C5354 /* Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C3BCC92084FA8D001C5354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5C3BCCB2084FA8D001C5354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5C3BCCE2084FA8D001C5354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5C3BCD12084FA8D001C5354 /* Schedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schedule.xcdatamodel; sourceTree = "<group>"; };
 		D5C3BCD32084FA8D001C5354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,12 @@
 		D5C3BCE82084FA8D001C5354 /* ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C3BCEC2084FA8D001C5354 /* ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleUITests.swift; sourceTree = "<group>"; };
 		D5C3BCEE2084FA8D001C5354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C3BCFA20850306001C5354 /* Tasks+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tasks+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D5C3BCFB20850306001C5354 /* Tasks+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tasks+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D5C3BCFC20850306001C5354 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D5C3BCFD20850306001C5354 /* Categories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D5C3BD0220850805001C5354 /* DataHelperCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelperCategories.swift; sourceTree = "<group>"; };
+		D5C3BD0A20855C82001C5354 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D527D7CF2087819900FA4899 /* ChromaColorPicker.framework in Frameworks */,
+				46F6C5284D3FD02C102D2FDC /* Pods_Schedule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A85ED3CA6AE5F536C951BDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				487D5BB819624BEAAE600BCD /* Pods-Schedule.debug.xcconfig */,
+				8EE7B36236D2A41697318AA8 /* Pods-Schedule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D5C3BCBD2084FA8D001C5354 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				D5C3BCE02084FA8D001C5354 /* ScheduleTests */,
 				D5C3BCEB2084FA8D001C5354 /* ScheduleUITests */,
 				D5C3BCC72084FA8D001C5354 /* Products */,
+				9A85ED3CA6AE5F536C951BDD /* Pods */,
+				E98D7FCF8F5EA8DA456FB54A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +136,18 @@
 		D5C3BCC82084FA8D001C5354 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				D527D7D32087B50300FA4899 /* EditTaskViewController.swift */,
+				D527D7CB208772E000FA4899 /* SettingsViewController.swift */,
+				D5C3BD0A20855C82001C5354 /* AddTaskViewController.swift */,
+				D5C3BCFA20850306001C5354 /* Tasks+CoreDataClass.swift */,
+				D5C3BCFB20850306001C5354 /* Tasks+CoreDataProperties.swift */,
+				D5C3BCFC20850306001C5354 /* Categories+CoreDataClass.swift */,
+				D5C3BCFD20850306001C5354 /* Categories+CoreDataProperties.swift */,
 				D5C3BCC92084FA8D001C5354 /* AppDelegate.swift */,
-				D5C3BCCB2084FA8D001C5354 /* ViewController.swift */,
+				D5C3BD0220850805001C5354 /* DataHelperCategories.swift */,
 				D5C3BCCD2084FA8D001C5354 /* Main.storyboard */,
+				D527D7D52087BCC400FA4899 /* TaskTableViewController.swift */,
+				D527D7CD208777AD00FA4899 /* AddCategoryViewController.swift */,
 				D5C3BCD32084FA8D001C5354 /* Assets.xcassets */,
 				D5C3BCD52084FA8D001C5354 /* LaunchScreen.storyboard */,
 				D5C3BCD82084FA8D001C5354 /* Info.plist */,
@@ -128,6 +174,15 @@
 			path = ScheduleUITests;
 			sourceTree = "<group>";
 		};
+		E98D7FCF8F5EA8DA456FB54A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D527D7D02087819900FA4899 /* ChromaColorPicker.framework */,
+				0BA3FDA7C2A0613C70510838 /* Pods_Schedule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5C3BCF12084FA8D001C5354 /* Build configuration list for PBXNativeTarget "Schedule" */;
 			buildPhases = (
+				09073F4411573F255E256823 /* [CP] Check Pods Manifest.lock */,
 				D5C3BCC22084FA8D001C5354 /* Sources */,
 				D5C3BCC32084FA8D001C5354 /* Frameworks */,
 				D5C3BCC42084FA8D001C5354 /* Resources */,
+				F899E12F40E0D3533103D94E /* [CP] Embed Pods Frameworks */,
+				7362675F4B913F98DBE3D683 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +315,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09073F4411573F255E256823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Schedule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7362675F4B913F98DBE3D683 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Schedule/Pods-Schedule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F899E12F40E0D3533103D94E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Schedule/Pods-Schedule-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Schedule/Pods-Schedule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D5C3BCC22084FA8D001C5354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C3BCCC2084FA8D001C5354 /* ViewController.swift in Sources */,
+				D5C3BD0120850306001C5354 /* Categories+CoreDataProperties.swift in Sources */,
+				D527D7D62087BCC400FA4899 /* TaskTableViewController.swift in Sources */,
+				D527D7CC208772E000FA4899 /* SettingsViewController.swift in Sources */,
 				D5C3BCD22084FA8D001C5354 /* Schedule.xcdatamodeld in Sources */,
+				D5C3BCFF20850306001C5354 /* Tasks+CoreDataProperties.swift in Sources */,
+				D5C3BD0020850306001C5354 /* Categories+CoreDataClass.swift in Sources */,
+				D5C3BD0320850805001C5354 /* DataHelperCategories.swift in Sources */,
+				D527D7D42087B50300FA4899 /* EditTaskViewController.swift in Sources */,
+				D5C3BD0B20855C82001C5354 /* AddTaskViewController.swift in Sources */,
+				D527D7CE208777AD00FA4899 /* AddCategoryViewController.swift in Sources */,
+				D5C3BCFE20850306001C5354 /* Tasks+CoreDataClass.swift in Sources */,
 				D5C3BCCA2084FA8D001C5354 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +549,7 @@
 		};
 		D5C3BCF22084FA8D001C5354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487D5BB819624BEAAE600BCD /* Pods-Schedule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +565,7 @@
 		};
 		D5C3BCF32084FA8D001C5354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE7B36236D2A41697318AA8 /* Pods-Schedule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
